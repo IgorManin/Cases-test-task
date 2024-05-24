@@ -1,0 +1,47 @@
+
+.app-bar {
+  &.MuiPaper-root.MuiAppBar-root {
+    background-color: rgba(0, 0, 0, 0.42);
+    backdrop-filter: blur(10px);
+  }
+
+  &__toolbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .MuiSvgIcon-root {
+    width: 35px;
+    height: 35px;
+  }
+
+  &__icon {
+    color: white;
+    padding-right: 10px;
+  }
+
+  &__nav-items {
+    display: none;
+
+    button {
+      color: white;
+      font-size: 20px;
+    }
+
+    @media (min-width: 600px) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .MuiButton-root.app-bar__button {
+    font-family: GothamPro, sans-serif;
+    font-size: 20px;
+  }
+
+  .MuiStack-root.app-bar__nav-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}

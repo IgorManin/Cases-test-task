@@ -1,0 +1,54 @@
+.card {
+  height: 460px;
+  border-radius: 15px !important;
+
+
+  &__MuiCard-root {
+    border-radius: 15px;
+  }
+
+  .MuiTypography-root {
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-family: 'GothamPro', sans-serif;
+    font-weight: 700;
+
+  }
+
+  &__action-area {
+    height: 100%;
+    align-items: flex-end;
+  }
+
+  &__stack {
+    height: 100%;
+    justify-content: flex-end;
+  }
+
+  .MuiCardMedia-root {
+    object-fit: contain;
+  }
+
+  &__media {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .MuiTypography-root.card__title {
+    line-height: normal;
+    font-family: GothamProBolt, sans-serif;
+  }
+
+  .MuiTypography-root.card__filters {
+    line-height: normal;
+    font-family: GothamProBolt, sans-serif;
+    font-size: 15px
+  }
+}
+

@@ -1,0 +1,58 @@
+.app {
+  &__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .MuiStack-root.app__header {
+    flex-direction: row;
+    padding: 40px;
+    margin-top: 70px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .MuiTypography-root.app__title {
+    //font-size: 150px;
+    font-family: GothamPro-Black, sans-serif;
+    color: white;
+
+    @media (min-width: 1470px) {
+      font-size: 150px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1469px) {
+      font-size: 120px;
+    }
+
+    @media (min-width: 770px) and (max-width: 1024px) {
+      font-size: 90px;
+    }
+
+    @media (min-width: 600px) and (max-width: 769px) {
+      font-size: 38px;
+    }
+
+    @media (max-width: 599px) {
+      font-size: 38px;
+    }
+  }
+
+  .MuiTypography-root.app__filters {
+    font-size: 48px;
+    font-family: GothamPro, sans-serif;
+    color: white;
+
+    @media (min-width: 770px) {
+      font-size: 48px;
+    }
+    @media (max-width: 769px) {
+      font-size: 24px;
+    }
+
+  }
+}

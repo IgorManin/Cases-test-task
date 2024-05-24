@@ -1,0 +1,151 @@
+.footer {
+  align-items: center;
+  padding: 40px;
+
+
+  &__title {
+    color: white;
+
+  }
+
+  &__email {
+    color: white;
+  }
+
+  .MuiTypography-root.footer__title {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: GothamProBolt, sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .MuiTypography-root.footer__info-title {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: GothamProBolt, sans-serif;;
+  }
+
+  .MuiTypography-root.footer__info-phone {
+    color: #fb6542;
+    font-size: 24px;
+    font-family: GothamProBolt, sans-serif;;
+  }
+
+  .MuiTypography-root.footer__email {
+    font-size: 96px;
+    font-family: GothamPro, sans-serif;
+    margin-bottom: 100px;
+
+  }
+
+  .MuiTypography-root.footer__info-address {
+    font-size: 24px;
+    font-family: GothamProBolt, sans-serif;
+  }
+
+  .MuiTypography-root.footer__contact-title {
+    font-size: 32px;
+    font-family: GothamProBolt, sans-serif;
+  }
+
+  .MuiButtonBase-root.footer__button {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: GothamProBolt, sans-serif;
+    text-transform: unset;
+    border-radius: 50%;
+    background-color: #fb6542;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .MuiStack-root.footer__content {
+    flex-direction: row;
+
+    @media screen and (max-width: 1470px) {
+      flex-direction: column;
+      .footer__button-container {
+        order: -1;
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    min-height: 160px;
+    justify-content: center;
+    width: 33%;
+  }
+
+  &__info-title,
+  &__info-address,
+  &__info-phone {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+
+  &__info-title {
+    font-weight: bold;
+  }
+
+  &__button-container {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+  }
+
+  &__contact-title {
+    color: white;
+    font-size: 44px;
+  }
+
+  .MuiButton-startIcon {
+    background-color: #fb6542;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  &__contact-button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  path {
+    fill: black;
+  }
+
+  svg {
+    height: 72px;
+    width: 72px;
+  }
+
+
+}
+
